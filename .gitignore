@@ -1,3 +1,4 @@
+# use of this file: There are some files which I donot want to be tracked. Place these extensions here
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

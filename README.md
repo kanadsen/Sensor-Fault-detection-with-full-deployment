@@ -10,6 +10,12 @@ In this project, the system in focus is the Air Pressure system (APS) which gene
 
 The problem is to reduce the cost due to unnecessary repairs. So it is required to minimize the false predictions.
 
+### Challenges Faced and soln
+
+1. Imbalance in dataset: Solved using SMOTE oversampling of the dataset. Synthetic samples are generated for the minority class i.e. positive prediction and negative detection. A hybrid combination of SMOTE and TOMEK has also been used to use a combination of oversampling and undersampling.
+
+
+
 ## Tech Stack Used
 
 1. Python 
@@ -73,7 +79,7 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 
 export AWS_DEFAULT_REGION=<AWS_DEFAULT_REGION>
 
-export MONGODB_URL="mongodb+srv://<username>:<password>@ineuron-ai-projects.7eh1w4s.mongodb.net/?retryWrites=true&w=majority"
+export MONGODB_URL="mongodb+srv://ksen01:Ks$9433118063@cluster0.coiraav.mongodb.net/?retryWrites=true&w=majority"
 
 ```
 

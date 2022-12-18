@@ -3,9 +3,9 @@ from setuptools import find_packages,setup
 from typing import List
 
 REQUIREMENT_FILE_NAME="requirements.txt"
-HYPHEN_E_DOT = "-e ."
+HYPHEN_E_DOT = "-e ." # to trigger the custom code setup file
 
-def get_requirements()->List[str]:
+def get_requirements()->List[str]: # Read each line of python file
     
     with open(REQUIREMENT_FILE_NAME) as requirement_file:
         requirement_list = requirement_file.readlines()
@@ -19,10 +19,10 @@ def get_requirements()->List[str]:
 
 setup(
     name="sensor",
-    version="0.0.2",
-    author="ineuron",
-    author_email="avnish@ineuron.ai",
-    packages = find_packages(),
-    install_requires=get_requirements(),
+    version="0.0.1",
+    author="Kanad sen",
+    author_email="kanadsen01@gmail.com",
+    packages = find_packages(), # creates packages of python sensor file. any folder containing .py extension will be made into a package
+    install_requires=get_requirements(), # When setup.py is run it automatically installs requirements
 )
 
