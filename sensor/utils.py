@@ -7,13 +7,15 @@ import yaml
 import numpy as np
 import dill
 
+# Create some of the helper functions
+
 def get_collection_as_dataframe(database_name:str,collection_name:str)->pd.DataFrame:
     """
     Description: This function return collection as dataframe
     =========================================================
     Params:
-    database_name: database name
-    collection_name: collection name
+    database_name: database name="aps"
+    collection_name: collection name="sensor"
     =========================================================
     return Pandas dataframe of a collection
     """

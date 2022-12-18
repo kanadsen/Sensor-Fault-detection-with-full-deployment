@@ -1,5 +1,6 @@
 from dataclasses import dataclass
-
+# Artifact Describes all the output. Refer to notes for pipeline
+# We have to define 6 entities according to model
 @dataclass
 class DataIngestionArtifact:
     feature_store_file_path:str
