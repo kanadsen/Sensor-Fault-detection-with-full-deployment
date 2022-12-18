@@ -3,10 +3,10 @@ import pymongo
 import pandas as pd
 import json
 
-#from sensor.config import mongo_client   # to be used when loading the prog from docker or web server
-mongo_client=pymongo.MongoClient("mongodb+srv://ksen01:Ks$9433118063@cluster0.coiraav.mongodb.net/?retryWrites=true&w=majority") # for running locally
+from sensor.config import mongo_client   # to be used when loading the prog from docker or web server
+#mongo_client=pymongo.MongoClient("mongodb+srv://ksen01:Ks$9433118063@cluster0.coiraav.mongodb.net/?retryWrites=true&w=majority") # for running locally
 
-DATA_FILE_PATH="aps_failure_training_set1.csv" # location of the dataset
+DATA_FILE_PATH="/config/workspace/aps_failure_training_set1.csv" # location of the dataset
 #/config/workspace/   (Add this if you are using sensor.config)
 DATABASE_NAME="aps"
 COLLECTION_NAME="sensor" # data is stored in form of collections 
