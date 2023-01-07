@@ -126,7 +126,6 @@ docker run -d -e AWS_ACCESS_KEY_ID="${{ secrets.AWS_ACCESS_KEY_ID }}" -e AWS_SEC
 ![Screenshot from 2022-11-25 18-50-29](https://user-images.githubusercontent.com/59412013/203995123-98f638ae-5bdb-4166-884e-81f74dc08ef1.png)
 ![Screenshot from 2022-11-25 18-45-52](https://user-images.githubusercontent.com/59412013/203995133-b2bc60c8-dcf5-4ba2-a3d3-50224d667636.png)
 ![Screenshot from 2022-11-25 18-45-31](https://user-images.githubusercontent.com/59412013/203995134-d7c66826-5553-4fd3-b898-40cab15e154e.png)
-![Screenshot from 2022-11-25 18-45-27](https://user-images.githubusercontent.com/59412013/203995137-f541e710-0840-44d3-af9a-e256f5b2181b.png)
 ![Screenshot from 2022-11-25 18-45-17](https://user-images.githubusercontent.com/59412013/203995139-ab931d2a-82c2-45e5-9d57-7f509a8bb300.png)
 ![Screenshot from 2022-11-25 18-44-43](https://user-images.githubusercontent.com/59412013/203995143-c85f1a75-6a1f-457e-a53d-db30c017fcfc.png)
 ![Screenshot from 2022-11-25 18-44-30](https://user-images.githubusercontent.com/59412013/203995147-4cb08a13-6298-47a4-a321-f13b56997e0f.png)
